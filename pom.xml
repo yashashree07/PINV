@@ -29,6 +29,13 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.0.0-alpha-4</version>
 		</dependency>
+		
+		<!-- ojdbc6.jar -->
+    		<dependency>
+        	<groupId>com.oracle</groupId>
+        	<artifactId>ojdbc6</artifactId>
+        	<version>11.2.0.4</version>
+    		</dependency>
 
 
 
