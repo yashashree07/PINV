@@ -7,11 +7,11 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions( 
-		features="src/test/resources/Features/TC16-OutwardPaymentflow.feature"
+		features="src/test/resources/Features"
 		,glue= {"StepDefination"}
 		,monochrome=true
 		,dryRun=false	
-		//,tags=  " @TC_15_09_OnusPaymentflowwithExceptionfromQueuedToFinalPosting "
+		,tags=  "@TC_18_02_IsraeliInwardReturnPaymentFlow"
 		,plugin = {"pretty", "html:target/cucumber-html-report",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 

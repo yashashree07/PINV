@@ -1,9 +1,6 @@
 #.settings
 .settings/
 
-#classpath file
-.classpath
-
 #debug.log file
 debug.log
 
