@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		,monochrome=true
 		,dryRun=false	
 		,tags=  "@TC_18_02_IsraeliInwardReturnPaymentFlow"
-		,plugin = {"pretty", "html:target/cucumber-html-report",
+		,plugin = {"pretty", "html:target/cucumber-html-report","json:target/cucumber-reports/Cucumber.json","junit:target/cucumber-reports/Cucumber.xml",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 
 		)
